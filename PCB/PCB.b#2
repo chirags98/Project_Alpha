@@ -162,7 +162,7 @@
 <wire x1="140.315" y1="0" x2="140.315" y2="86.03" width="0.3048" layer="20"/>
 <wire x1="140.315" y1="86.03" x2="39.37" y2="86.03" width="0.3048" layer="20"/>
 <wire x1="39.37" y1="86.03" x2="39.37" y2="0" width="0.3048" layer="20"/>
-<text x="45.2374" y="2.0828" size="1.27" layer="21" font="vector" ratio="10">TSE-2018</text>
+<text x="48.2092" y="6.1214" size="1.27" layer="21" font="vector" ratio="10" rot="R90">TSE-2018</text>
 <rectangle x1="52.2351" y1="67.2973" x2="52.3621" y2="67.3227" layer="21"/>
 <rectangle x1="52.2097" y1="67.3227" x2="52.4383" y2="67.3481" layer="21"/>
 <rectangle x1="50.5333" y1="67.3481" x2="50.5587" y2="67.3735" layer="21"/>
@@ -2945,7 +2945,6 @@
 <rectangle x1="56.7563" y1="71.6661" x2="56.8071" y2="71.6915" layer="21"/>
 <rectangle x1="56.9341" y1="71.6661" x2="56.9595" y2="71.6915" layer="21"/>
 <rectangle x1="56.9849" y1="71.6661" x2="57.1627" y2="71.6915" layer="21"/>
-<rectangle x1="47.7901" y1="71.6915" x2="48.8823" y2="71.7169" layer="21"/>
 <rectangle x1="49.1871" y1="71.6915" x2="49.2125" y2="71.7169" layer="21"/>
 <rectangle x1="49.2633" y1="71.6915" x2="49.2887" y2="71.7169" layer="21"/>
 <rectangle x1="49.3141" y1="71.6915" x2="49.4411" y2="71.7169" layer="21"/>
@@ -6144,7 +6143,6 @@
 <rectangle x1="48.0949" y1="74.0537" x2="48.2981" y2="74.0791" layer="21"/>
 <rectangle x1="48.7045" y1="74.0537" x2="48.8061" y2="74.0791" layer="21"/>
 <rectangle x1="48.9331" y1="74.0537" x2="49.0855" y2="74.0791" layer="21"/>
-<rectangle x1="49.1871" y1="74.0537" x2="49.2125" y2="74.0791" layer="21"/>
 <rectangle x1="50.2539" y1="74.0537" x2="50.2793" y2="74.0791" layer="21"/>
 <rectangle x1="50.3047" y1="74.0537" x2="50.3301" y2="74.0791" layer="21"/>
 <rectangle x1="50.5841" y1="74.0537" x2="50.6349" y2="74.0791" layer="21"/>
@@ -10494,6 +10492,9 @@
 <hole x="137.922" y="83.566" drill="3.048"/>
 <hole x="137.922" y="2.54" drill="3.048"/>
 <hole x="41.91" y="2.54" drill="3.048"/>
+<text x="45.212" y="6.096" size="1.778" layer="21" rot="R90">Sardar Patel Institute 
+of Technology</text>
+<text x="45.212" y="1.27" size="1.27" layer="21" ratio="10">1 Oct, 2018</text>
 </plain>
 <libraries>
 <library name="ic-package" urn="urn:adsk.eagle:library:239">
@@ -12981,6 +12982,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="SJ7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="117.348" y="49.784" rot="MR270"/>
 <element name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="90.424" y="55.88" rot="R270"/>
 <element name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="124.46" y="51.816" rot="MR270"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="129.794" y="7.874" rot="R180">
+<attribute name="SPICEPREFIX" value="C" x="129.794" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -13033,6 +13037,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="SJ1" pad="1"/>
 <contactref element="SJ4" pad="1"/>
 <contactref element="SJ7" pad="1"/>
+<contactref element="C8" pad="1"/>
 </signal>
 <signal name="XTAL2">
 <contactref element="C1" pad="2"/>
@@ -13550,6 +13555,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="122.428" y1="5.08" x2="123.698" y2="3.81" width="0.6096" layer="16"/>
 <wire x1="123.698" y1="3.81" x2="124.968" y2="3.81" width="0.6096" layer="16"/>
 <wire x1="122.428" y1="8.128" x2="122.428" y2="5.08" width="0.6096" layer="16"/>
+<contactref element="C8" pad="2"/>
+<wire x1="128.524" y1="7.874" x2="124.968" y2="4.318" width="0.6096" layer="16"/>
+<wire x1="124.968" y1="4.318" x2="124.968" y2="3.81" width="0.6096" layer="16"/>
 </signal>
 <signal name="P3.0">
 <contactref element="8051" pad="10"/>
@@ -13730,6 +13738,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
