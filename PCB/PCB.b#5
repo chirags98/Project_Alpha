@@ -32,8 +32,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -162,7 +162,7 @@
 <wire x1="140.315" y1="0" x2="140.315" y2="86.03" width="0.3048" layer="20"/>
 <wire x1="140.315" y1="86.03" x2="39.37" y2="86.03" width="0.3048" layer="20"/>
 <wire x1="39.37" y1="86.03" x2="39.37" y2="0" width="0.3048" layer="20"/>
-<text x="45.2374" y="2.0828" size="1.27" layer="21" font="vector" ratio="10">TSE-2018</text>
+<text x="48.2092" y="6.1214" size="1.27" layer="21" font="vector" ratio="10" rot="R90">TSE-2018</text>
 <rectangle x1="52.2351" y1="67.2973" x2="52.3621" y2="67.3227" layer="21"/>
 <rectangle x1="52.2097" y1="67.3227" x2="52.4383" y2="67.3481" layer="21"/>
 <rectangle x1="50.5333" y1="67.3481" x2="50.5587" y2="67.3735" layer="21"/>
@@ -10484,16 +10484,19 @@
 <rectangle x1="51.8541" y1="79.9719" x2="51.9811" y2="79.9973" layer="21"/>
 <rectangle x1="52.0065" y1="79.9719" x2="52.0319" y2="79.9973" layer="21"/>
 <rectangle x1="52.0573" y1="79.9719" x2="52.1589" y2="79.9973" layer="21"/>
-<text x="78.105" y="0.508" size="1.27" layer="22" font="vector" ratio="10">+10V</text>
-<text x="83.185" y="0.508" size="1.27" layer="22" font="vector" ratio="10">-10V</text>
-<text x="73.66" y="0.508" size="1.27" layer="22" font="vector" ratio="10">+5V</text>
-<text x="69.215" y="0.508" size="1.27" layer="22" font="vector" ratio="10">GND</text>
-<text x="64.135" y="0.508" size="1.27" layer="22" font="vector" ratio="10">GND</text>
-<text x="59.055" y="0.508" size="1.27" layer="22" font="vector" ratio="10">GND</text>
+<text x="78.105" y="0.508" size="1.27" layer="21" font="vector" ratio="10">+10V</text>
+<text x="83.185" y="0.508" size="1.27" layer="21" font="vector" ratio="10">-10V</text>
+<text x="73.66" y="0.508" size="1.27" layer="21" font="vector" ratio="10">+5V</text>
+<text x="69.215" y="0.508" size="1.27" layer="21" font="vector" ratio="10">GND</text>
+<text x="64.135" y="0.508" size="1.27" layer="21" font="vector" ratio="10">GND</text>
+<text x="59.055" y="0.508" size="1.27" layer="21" font="vector" ratio="10">GND</text>
 <hole x="41.91" y="83.566" drill="3.048"/>
 <hole x="137.922" y="83.566" drill="3.048"/>
 <hole x="137.922" y="2.54" drill="3.048"/>
 <hole x="41.91" y="2.54" drill="3.048"/>
+<text x="45.212" y="6.096" size="1.778" layer="21" rot="R90">Sardar Patel Institute 
+of Technology</text>
+<text x="45.212" y="1.27" size="1.27" layer="21" ratio="10">1 Oct, 2018</text>
 </plain>
 <libraries>
 <library name="ic-package" urn="urn:adsk.eagle:library:239">
@@ -12780,7 +12783,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="121.92" y="39.624" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="8051" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL40" package3d_urn="urn:adsk.eagle:package:19651/1" value="" x="78.74" y="49.53" smashed="yes" rot="R270">
-<attribute name="NAME" x="76.327" y="75.565" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="NAME" x="72.263" y="22.225" size="1.27" layer="21" font="vector" ratio="10"/>
 <attribute name="VALUE" x="77.724" y="66.675" size="1.778" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="33pF" x="65.405" y="43.18" smashed="yes" rot="R180">
@@ -12789,12 +12792,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="67.691" y="45.974" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="33pF" x="65.405" y="20.955" smashed="yes" rot="R180">
-<attribute name="NAME" x="66.1162" y="19.304" size="1.27" layer="21" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="66.1162" y="19.05" size="1.27" layer="21" font="vector" ratio="10" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="65.405" y="20.955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.691" y="23.749" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="87.122" y="80.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="86.106" y="82.804" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="NAME" x="86.106" y="83.058" size="1.27" layer="21" font="vector" ratio="10"/>
 <attribute name="SPICEPREFIX" value="C" x="87.122" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="84.328" y="82.296" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -12814,15 +12817,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="95.504" y="43.561" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="CD4029_1" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="130.81" y="62.865" smashed="yes" rot="R90">
-<attribute name="NAME" x="134.7978" y="74.7014" size="1.27" layer="21" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="134.7978" y="74.9554" size="1.27" layer="21" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="131.445" y="55.372" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="CD4029_2" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="97.79" y="62.865" smashed="yes" rot="R90">
-<attribute name="NAME" x="93.7006" y="73.4568" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="NAME" x="93.7006" y="73.7108" size="1.27" layer="21" font="vector" ratio="10"/>
 <attribute name="VALUE" x="98.425" y="55.372" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148DO35-7" x="112.395" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="109.6772" y="41.6814" size="1.27" layer="21" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="109.4232" y="41.6814" size="1.27" layer="21" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="109.728" y="42.926" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="DAC0808_1" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="95.25" y="24.765" smashed="yes" rot="R90">
@@ -12830,7 +12833,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="95.885" y="17.272" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="DAC0808_2" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL16" package3d_urn="urn:adsk.eagle:package:922/2" value="" x="114.3" y="62.865" smashed="yes" rot="R270">
-<attribute name="NAME" x="109.6264" y="73.406" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="NAME" x="109.8804" y="73.914" size="1.27" layer="21" font="vector" ratio="10"/>
 <attribute name="VALUE" x="113.665" y="70.358" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IC741" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL08" package3d_urn="urn:adsk.eagle:package:29519/2" value="" x="121.285" y="12.7" smashed="yes" rot="R270">
@@ -12842,7 +12845,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="61.7474" y="74.93" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LCD" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X16" package3d_urn="urn:adsk.eagle:package:22432/2" value="" x="53.34" y="39.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="50.0888" y="38.8112" size="1.27" layer="21" font="vector" ratio="10" rot="R270"/>
+<attribute name="NAME" x="49.5808" y="40.5892" size="1.27" layer="21" font="vector" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="50.165" y="59.69" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LM148" library="ic-package" library_urn="urn:adsk.eagle:library:239" package="DIL14" package3d_urn="urn:adsk.eagle:package:16407/2" value="" x="109.855" y="17.78" smashed="yes" rot="R270">
@@ -12857,12 +12860,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="VALUE" x="68.707" y="24.13" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="57.785" y="57.15" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.0804" y="57.15" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="59.3344" y="57.15" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="57.785" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="56.769" y="57.15" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="10k" x="107.315" y="40.64" smashed="yes" rot="R270">
-<attribute name="NAME" x="104.8004" y="40.64" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="104.5464" y="40.64" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="107.315" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="106.299" y="40.64" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
@@ -12939,18 +12942,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="OC_NEWARK" value="36M3542" x="78.613" y="78.74" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="81.661" y="83.82" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20" package3d_urn="urn:adsk.eagle:package:27950/1" value="TPPAD1-20" x="123.19" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="121.666" y="1.778" size="1.27" layer="21" font="vector" ratio="10"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="120.015" y="6.35" size="1" layer="37" rot="R270"/>
-<attribute name="VALUE" x="123.19" y="5.08" size="0.0254" layer="27" rot="R270"/>
+<element name="TP1" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20" package3d_urn="urn:adsk.eagle:package:27950/1" value="TPPAD1-20" x="124.968" y="3.81" smashed="yes" rot="R270">
+<attribute name="NAME" x="123.444" y="0.508" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="121.793" y="5.08" size="1" layer="37" rot="R270"/>
+<attribute name="VALUE" x="124.968" y="3.81" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20" package3d_urn="urn:adsk.eagle:package:27950/1" value="TPPAD1-20" x="130.175" y="5.08" smashed="yes" rot="R270">
-<attribute name="NAME" x="128.651" y="1.778" size="1.27" layer="21" font="vector" ratio="10"/>
-<attribute name="TP_SIGNAL_NAME" value="" x="127" y="6.35" size="1" layer="37" rot="R270"/>
-<attribute name="VALUE" x="130.175" y="5.08" size="0.0254" layer="27" rot="R270"/>
+<element name="TP2" library="testpad" library_urn="urn:adsk.eagle:library:385" package="P1-20" package3d_urn="urn:adsk.eagle:package:27950/1" value="TPPAD1-20" x="129.413" y="3.81" smashed="yes" rot="R270">
+<attribute name="NAME" x="127.889" y="0.508" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="TP_SIGNAL_NAME" value="" x="126.238" y="5.08" size="1" layer="37" rot="R270"/>
+<attribute name="VALUE" x="129.413" y="3.81" size="0.0254" layer="27" rot="R270"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="90.17" y="80.01" smashed="yes" rot="R270">
-<attribute name="NAME" x="89.154" y="82.804" size="1.27" layer="21" font="vector" ratio="10"/>
+<attribute name="NAME" x="89.154" y="83.058" size="1.27" layer="21" font="vector" ratio="10"/>
 <attribute name="SPICEPREFIX" value="C" x="90.17" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="87.376" y="82.296" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
@@ -12981,6 +12984,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="SJ7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="117.348" y="49.784" rot="MR270"/>
 <element name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="90.424" y="55.88" rot="R270"/>
 <element name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="124.46" y="51.816" rot="MR270"/>
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="129.794" y="7.874" rot="R180">
+<attribute name="SPICEPREFIX" value="C" x="129.794" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -13033,6 +13039,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="SJ1" pad="1"/>
 <contactref element="SJ4" pad="1"/>
 <contactref element="SJ7" pad="1"/>
+<contactref element="C8" pad="1"/>
 </signal>
 <signal name="XTAL2">
 <contactref element="C1" pad="2"/>
@@ -13366,8 +13373,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="133.604" y1="49.53" x2="135.89" y2="47.244" width="0.6096" layer="1"/>
 <wire x1="135.89" y1="47.244" x2="135.89" y2="44.45" width="0.6096" layer="1"/>
 <wire x1="125.095" y1="44.45" x2="135.89" y2="44.45" width="0.6096" layer="1"/>
-<wire x1="130.175" y1="5.08" x2="134.112" y2="5.08" width="0.6096" layer="1"/>
-<wire x1="134.112" y1="5.08" x2="135.89" y2="6.858" width="0.6096" layer="1"/>
+<wire x1="129.413" y1="3.81" x2="132.842" y2="3.81" width="0.6096" layer="1"/>
+<wire x1="132.842" y1="3.81" x2="135.89" y2="6.858" width="0.6096" layer="1"/>
 <wire x1="135.89" y1="6.858" x2="135.89" y2="44.45" width="0.6096" layer="1"/>
 <contactref element="SJ5" pad="2"/>
 <contactref element="SJ8" pad="2"/>
@@ -13547,8 +13554,12 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="OUTPUT">
 <contactref element="TP1" pad="TP"/>
 <contactref element="SJ3" pad="2"/>
-<wire x1="123.19" y1="5.08" x2="122.428" y2="5.842" width="0.6096" layer="16"/>
-<wire x1="122.428" y1="5.842" x2="122.428" y2="8.128" width="0.6096" layer="16"/>
+<wire x1="122.428" y1="5.08" x2="123.698" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="123.698" y1="3.81" x2="124.968" y2="3.81" width="0.6096" layer="16"/>
+<wire x1="122.428" y1="8.128" x2="122.428" y2="5.08" width="0.6096" layer="16"/>
+<contactref element="C8" pad="2"/>
+<wire x1="128.524" y1="7.874" x2="124.968" y2="4.318" width="0.6096" layer="16"/>
+<wire x1="124.968" y1="4.318" x2="124.968" y2="3.81" width="0.6096" layer="16"/>
 </signal>
 <signal name="P3.0">
 <contactref element="8051" pad="10"/>
@@ -13729,6 +13740,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

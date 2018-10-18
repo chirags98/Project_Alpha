@@ -12806,7 +12806,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="SPICEPREFIX" value="C" x="65.405" y="20.955" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="67.691" y="23.749" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="87.122" y="80.01" smashed="yes" rot="R270">
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10u" x="87.122" y="80.01" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="87.122" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="87.122" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="86.106" y="83.058" size="1.27" layer="21" font="vector" ratio="10"/>
@@ -12830,7 +12830,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="SPICEPREFIX" value="C" x="128.905" y="40.64" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="131.699" y="38.354" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="97.79" y="46.355" smashed="yes">
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value=".1u" x="97.79" y="46.355" smashed="yes">
 <attribute name="MF" value="" x="97.79" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="97.79" y="46.355" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="96.774" y="47.879" size="1.27" layer="21" font="vector" ratio="10"/>
@@ -12956,7 +12956,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value=" " x="128.905" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="129.921" y="24.765" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value=" " x="47.625" y="57.15" smashed="yes" rot="R270">
+<element name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7k" x="47.625" y="57.15" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="47.625" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="47.625" y="57.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="44.8818" y="57.15" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
@@ -13020,7 +13020,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value=" " x="121.285" y="24.765" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="122.301" y="24.765" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="2.7k" x="118.745" y="24.765" smashed="yes" rot="R270">
+<element name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="4.7k" x="118.745" y="24.765" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="118.745" y="24.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="118.745" y="24.765" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="118.1862" y="30.8102" size="1.27" layer="21" font="vector" ratio="10" rot="R270" align="bottom-center"/>
@@ -13052,7 +13052,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="TP_SIGNAL_NAME" value="" x="126.238" y="5.08" size="1" layer="37" rot="R270"/>
 <attribute name="VALUE" x="129.413" y="3.81" size="0.0254" layer="27" rot="R270"/>
 </element>
-<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="90.17" y="80.01" smashed="yes" rot="R270">
+<element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value=".1u" x="90.17" y="80.01" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="90.17" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="90.17" y="80.01" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="89.154" y="83.058" size="1.27" layer="21" font="vector" ratio="10"/>

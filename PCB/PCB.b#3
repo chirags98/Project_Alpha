@@ -2945,7 +2945,6 @@
 <rectangle x1="56.7563" y1="71.6661" x2="56.8071" y2="71.6915" layer="21"/>
 <rectangle x1="56.9341" y1="71.6661" x2="56.9595" y2="71.6915" layer="21"/>
 <rectangle x1="56.9849" y1="71.6661" x2="57.1627" y2="71.6915" layer="21"/>
-<rectangle x1="47.7901" y1="71.6915" x2="48.8823" y2="71.7169" layer="21"/>
 <rectangle x1="49.1871" y1="71.6915" x2="49.2125" y2="71.7169" layer="21"/>
 <rectangle x1="49.2633" y1="71.6915" x2="49.2887" y2="71.7169" layer="21"/>
 <rectangle x1="49.3141" y1="71.6915" x2="49.4411" y2="71.7169" layer="21"/>
@@ -6144,7 +6143,6 @@
 <rectangle x1="48.0949" y1="74.0537" x2="48.2981" y2="74.0791" layer="21"/>
 <rectangle x1="48.7045" y1="74.0537" x2="48.8061" y2="74.0791" layer="21"/>
 <rectangle x1="48.9331" y1="74.0537" x2="49.0855" y2="74.0791" layer="21"/>
-<rectangle x1="49.1871" y1="74.0537" x2="49.2125" y2="74.0791" layer="21"/>
 <rectangle x1="50.2539" y1="74.0537" x2="50.2793" y2="74.0791" layer="21"/>
 <rectangle x1="50.3047" y1="74.0537" x2="50.3301" y2="74.0791" layer="21"/>
 <rectangle x1="50.5841" y1="74.0537" x2="50.6349" y2="74.0791" layer="21"/>
@@ -12984,7 +12982,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="SJ7" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="117.348" y="49.784" rot="MR270"/>
 <element name="SJ5" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="90.424" y="55.88" rot="R270"/>
 <element name="SJ8" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="124.46" y="51.816" rot="MR270"/>
-<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="10nF" x="129.794" y="7.874" rot="R180">
+<element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value=".1u" x="129.794" y="7.874" rot="R180">
 <attribute name="SPICEPREFIX" value="C" x="129.794" y="7.874" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
